@@ -1,3 +1,4 @@
+import githubReducer from '../github/githubReducer';
 import { SET_ALERT, REMOVE_ALERT } from '../types';
 
 export const alertReducer = (state, action) => {
@@ -10,3 +11,5 @@ export const alertReducer = (state, action) => {
 			return state;
 	}
 };
+
+export default alertReducer;
