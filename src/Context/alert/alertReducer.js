@@ -1,4 +1,4 @@
-import githubReducer from '../github/githubReducer';
+// import githubReducer from '../github/githubReducer';
 import { SET_ALERT, REMOVE_ALERT } from '../types';
 
 export const alertReducer = (state, action) => {
