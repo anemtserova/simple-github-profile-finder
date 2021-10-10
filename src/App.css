@@ -414,3 +414,10 @@ table th {
 		justify-content: center;
 	}
 }
+
+.about-page {
+	text-align: justify;
+	width: 50%;
+	margin: auto;
+	padding: 2rem;
+}

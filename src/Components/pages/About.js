@@ -1,16 +1,22 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 export const About = () => {
 	return (
-		<Fragment>
-			<h1>About this app</h1>
+		<div class="about-page">
+			<h1>
+				About <span class="text-primary">Github Profile Finder</span>
+			</h1>
+			<div class="my-3">
+				<p>
+					This is an easy-to-use app that allows you to search for github users
+					by user or real name and review their profile details. The app also
+					provides links to up to five repos of each user.
+				</p>
+			</div>
 			<p>
-				<b>Github Profile Finder</b>is an easy-to-use app that allows you to
-				search for github users by user or real name and review their profile
-				details. The app also provides links to up to five repos of each user.
+				This is version: <em>one point zero point zero</em>
 			</p>
-			<p>This is version: 1.0.0</p>
-		</Fragment>
+		</div>
 	);
 };
 
