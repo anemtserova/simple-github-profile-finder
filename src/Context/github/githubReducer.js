@@ -6,7 +6,7 @@ import {
 	GET_REPOS,
 } from '../types';
 
-export default (state, action) => {
+export const githubReducer = (state, action) => {
 	switch (action.type) {
 		case CLEAR_USERS:
 			return {
